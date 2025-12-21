@@ -702,8 +702,8 @@ main{
     }
     .menu-btn{
         display: block;
-        margin-left: 100px;
         font-size: 1.3em;
+        margin-left: 30px;
     }
     .sidebar {
         display: block;
@@ -745,14 +745,19 @@ main{
         font-size: 2.1em;
     }
     .image-container{
-        max-width: 350px;
+        max-width: 250px;
         padding: 0 10px;
     }
     .resume-container{
-        margin-top: -700px;
-        margin-left: 320px;
-        max-width: 120px;
-        padding: 10px 10px;
+        margin-top: -550px;
+        margin-left: 200px;
+        width: 120px;
+        padding: 10px 0;
+    }
+    .resume-wrapper{
+        width: 100px;
+        height: 100px;
+        font-size: 0.6em;
     }
     .subcontent-container{
         top: 500px;
@@ -760,16 +765,19 @@ main{
     /*------ABOUT------*/
     .profile-container{
         height: 20em;
+        width: 16em;
         padding: 0 15px;
     }
     .profile-subcontainer{
-        height: 20em;
+        height: 16em;
+        width: 15em;
     }
     .profile-subcontainer img{
-        height: 20em;
+        height: 16em;
+        width: 15em;
     }
     .aboutme h2{
-        font-size: 38px;
+        font-size: 35px;
     }
     .aboutme p{
         font-size: 1em;
