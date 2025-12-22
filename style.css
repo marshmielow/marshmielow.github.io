@@ -183,6 +183,7 @@ main{
     margin-left: -320px;
     scroll-behavior: smooth;
     scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
 }
 .scroll-area::-webkit-scrollbar{
     display: none;
@@ -737,7 +738,7 @@ main{
         left: 0;
       }
 
-    /*------HOME------*/    
+    /*------HOME------*/   
     .content-container h3{
         font-size: 1.3em;
     }
@@ -761,7 +762,10 @@ main{
     }
     .subcontent-container{
         top: 500px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
+    .carousel-subcontainer
     /*------ABOUT------*/
     .profile-container{
         height: 20em;
@@ -773,14 +777,16 @@ main{
         width: 15em;
     }
     .profile-subcontainer img{
-        height: 16em;
-        width: 15em;
+        height: 100%;
+        width: 100%;
     }
     .aboutme h2{
         font-size: 35px;
+        padding: 5px;
     }
     .aboutme p{
         font-size: 1em;
+        padding: 5px;
     }
     /*------EXPERIENCE------*/
     .experience-image{
