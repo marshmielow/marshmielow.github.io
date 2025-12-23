@@ -754,8 +754,6 @@ main{
         padding: 0 10px;
     }
     .resume-container{
-        margin-top: -550px;
-        margin-left: 200px;
         width: 120px;
         padding: 10px 0;
     }
@@ -765,11 +763,10 @@ main{
         font-size: 0.6em;
     }
     .subcontent-container{
-        top: 500px;
+        top: 800px;
         padding-top: 20px;
         padding-bottom: 20px;
     }
-    .carousel-subcontainer
     /*------ABOUT------*/
     .profile-container{
         height: 20em;
