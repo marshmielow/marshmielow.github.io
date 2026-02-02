@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Projects</title>
+</head>
+<body>
+    <header> 
+        <nav>
+            <div class="logo-container">
+                <a href="index.html#home">MARIEL MORENO</a>
+            </div>
+            <div class="links-container">
+                <ul>
+                    <a href="index.html#home">HOME</a>
+                    <a href="index.html#about">ABOUT</a>
+                    <a href="index.html#experience">EXPERIENCE</a>
+                    <a href="index.html#project">PROJECTS</a>
+                    <a href="index.html#contact">CONTACT</a>
+                </ul>
+            </div>
+            <div class="contactbttn">
+                <a href="index.html#contact" id="contactBtn">CONTACT</a>
+            </div>
+        </nav>
+        <div class="menu-btn" onclick="toggleMenu()">☰</div>
+        <div class="sidebar" id="sidebar">
+            <button class="close-btn" id="close-btn">✕</button>
+            <ul>
+                <a href="index.html#home">HOME</a>
+                <a href="index.html#about">ABOUT</a>
+                <a href="index.html#experience">EXPERIENCE</a>
+                <a href="index.html#project">PROJECTS</a>
+                <a href="index.html#contact">CONTACT</a>
+            </ul>
+        </div>
+    </header>
+
+    <section class="hero-section-project">
+        <div class="hero-content-project">
+            <h1>Explore some of my wonderful projects</h1>
+            <p>Dive into a showcase of my captivating and innovative design endeavors.</p>
+        </div>
+    </section>
+
+    <section class="project-wrapper">
+        <div class="project-card">
+            <div class="project-slider">
+                <button class="prev">&#10094;</button>
+                <div class="slider-container">
+                    <img src="images/police/police_1.png" class="slide active">
+                    <img src="images/police/police_2.png" class="slide">
+                    <img src="images/police/police_3.png" class="slide">
+                </div>
+                <button class="next">&#10095;</button>
+            </div>
+
+            <div class="project-info">
+                <h2>Police Management System</h2>
+                <p class="project-desc">
+                    A web-based hotel management system designed to manage bookings,
+                    rooms, and customers efficiently with a clean UI and smooth workflow.
+                </p>
+                <p class="tech-used">
+                    <strong>Technologies:</strong> HTML, CSS, JavaScript, PHP
+                </p>
+                <div class="project-links">
+                    <a target="_blank" class="btn github" onclick="openModal()">
+                        <i class="fa fa-github"></i> GitHub
+                    </a>
+                    <a target="_blank" class="btn demo"onclick="openModal()">
+                        <i class="fa fa-external-link"></i> Live Demo
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-slider">
+                <button class="prev">&#10094;</button>
+                <div class="slider-container">
+                    <img src="images/hooksloops/hooksloops_1.png" class="slide active">
+                    <img src="images/hooksloops/hooksloops_2.png" class="slide">
+                    <img src="images/hooksloops/hooksloops_3.png" class="slide">
+                    <img src="images/hooksloops/hooksloops_4.png" class="slide">
+                    <img src="images/hooksloops/hooksloops_5.png" class="slide">
+                    <img src="images/hooksloops/hooksloops_6.png" class="slide">
+                    <img src="images/hooksloops/hooksloops_7.png" class="slide">
+                    <img src="images/hooksloops/hooksloops_8.png" class="slide">
+                </div>
+                <button class="next">&#10095;</button>
+            </div>
+
+            <div class="project-info">
+                <h2>A Business Website </h2>
+                <p class="project-desc">
+                    A web-based hotel management system designed to manage bookings,
+                    rooms, and customers efficiently with a clean UI and smooth workflow.
+                </p>
+                <p class="tech-used">
+                    <strong>Technologies:</strong> HTML, CSS, JavaScript, ASP.NET MVC
+                </p>
+                <div class="project-links">
+                    <a target="_blank" class="btn github"onclick="openModal()">
+                        <i class="fa fa-github"></i> GitHub
+                    </a>
+                    <a target="_blank" class="btn demo"onclick="openModal()">
+                        <i class="fa fa-external-link"></i> Live Demo
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-slider">
+                <button class="prev">&#10094;</button>
+                <div class="slider-container">
+                    <img src="images/mobile/mobile_1.png" class="slide active" onclick="openModal()">
+                    <img src="images/mobile/mobilee_2.png" class="slide" onclick="openModal()">
+                </div>
+                <button class="next">&#10095;</button>
+            </div>
+            <div class="project-info">
+                <h2>Hooks and Loops</h2>
+                <p class="project-desc">
+                    A web-based hotel management system designed to manage bookings,
+                    rooms, and customers efficiently with a clean UI and smooth workflow.
+                </p>
+                <p class="tech-used">
+                    <strong>Technologies:</strong> HTML, CSS, JavaScript, ASP.NET MVC, MSSQL
+                </p>
+                <div class="project-links">
+                    <a target="_blank" class="btn github" onclick="openModal()">
+                        <i class="fa fa-github"></i> GitHub
+                    </a>
+                    <a target="_blank" class="btn demo" onclick="openModal()">
+                        <i class="fa fa-external-link"></i> Live Demo
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-slider">
+                <button class="prev">&#10094;</button>
+                <div class="slider-container">
+                    <img src="images/hotel/hotel_2.png" class="slide active">
+                    <img src="images/hotel/hotel_3.png" class="slide">
+                    <img src="images/hotel/hotel_4.png" class="slide">
+                    <img src="images/hotel/hotel_5.png" class="slide">
+                    <img src="images/hotel/hotel_7.png" class="slide">
+                </div>
+
+                <button class="next">&#10095;</button>
+            </div>
+
+            <div class="project-info">
+                <h2>Hotel Management System</h2>
+                <p class="project-desc">
+                    A web-based hotel management system designed to manage bookings,
+                    rooms, and customers efficiently with a clean UI and smooth workflow.
+                </p>
+                <p class="tech-used">
+                    <strong>Technologies:</strong> HTML, CSS, JavaScript, ASP.NET MVC
+                </p>
+                <div class="project-links">
+                    <a target="_blank" class="btn github" onclick="openModal()">
+                        <i class="fa fa-github"></i> GitHub
+                    </a>
+                    <a target="_blank" class="btn demo" onclick="openModal()">
+                        <i class="fa fa-external-link"></i> Live Demo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="comingSoonModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>🚧 Coming Soon!</h2>
+            <p>Work in progress. Please check back later.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
